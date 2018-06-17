@@ -312,6 +312,7 @@
     <None Include="Assets\Shader\HiddenShader.shader" />
     <None Include="Assets\Shader\PortalShader.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\GearBox.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\GearBoxImageTargets.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\GearBoxMarkers.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />

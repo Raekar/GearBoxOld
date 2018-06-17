@@ -116,7 +116,7 @@ public class RotateGear : MonoBehaviour, ITrackableEventHandler {
     private void RotateGearFive()
     {
         gearFive.SetActive(true);
-        gearFive.transform.Rotate(0, 0, 1);
+        gearFive.transform.Rotate(0, 0, -1);
     }
 
     private void RotateGearSix()
@@ -126,7 +126,7 @@ public class RotateGear : MonoBehaviour, ITrackableEventHandler {
 
     private void RotateGearSeven()
     {
-        gearSeven.transform.Rotate(0, 0, 1);
+        gearSeven.transform.Rotate(0, 0, -1);
     }
 
     private void RotateGearEight()
@@ -137,7 +137,7 @@ public class RotateGear : MonoBehaviour, ITrackableEventHandler {
 
     private void RotateGearNine()
     {
-        gearNine.transform.Rotate(0, 0, 1);
+        gearNine.transform.Rotate(0, 0, -1);
     }
 
     private void RotateGearTen()
@@ -148,7 +148,7 @@ public class RotateGear : MonoBehaviour, ITrackableEventHandler {
     private void RotateGearEleven()
     {
         gearEleven.SetActive(true);
-        gearEleven.transform.Rotate(0, 0, 1);
+        gearEleven.transform.Rotate(0, 0, -1);
     }
 
     private void RotateGearTwelve()
@@ -166,7 +166,7 @@ public class RotateGear : MonoBehaviour, ITrackableEventHandler {
 
         RotateGearOne();
 
-        if(MeasureFirstDistance() <= 1.5f)
+        if(MeasureFirstDistance() <= 1f)
         {
             cardGearOne.SetActive(false);
    
@@ -177,7 +177,7 @@ public class RotateGear : MonoBehaviour, ITrackableEventHandler {
             {
                 RotateGearFour();
 
-                if (MeasureSecondtDistance() <= 1.5f)
+                if (MeasureSecondtDistance() <= 1f)
                 {
                     cardGearTwo.SetActive(false);
 
@@ -188,7 +188,7 @@ public class RotateGear : MonoBehaviour, ITrackableEventHandler {
                     {
                         RotateGearSeven();
 
-                        if(MeasureThirdDistance() <= 1.5f)
+                        if(MeasureThirdDistance() <= 1f)
                         {
                             cardGearThree.SetActive(false);
 
@@ -199,7 +199,7 @@ public class RotateGear : MonoBehaviour, ITrackableEventHandler {
                             {
                                 RotateGearTen();
 
-                                if (MeasureFourthDistance() <= 1.5f)
+                                if (MeasureFourthDistance() <= 1f)
                                 {
                                     RotateGearEleven();
                                     RotateGearTwelve();

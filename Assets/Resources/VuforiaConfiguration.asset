@@ -16,9 +16,9 @@ MonoBehaviour:
     ufoLicenseKey: QVErdzdYZi8vLy8vQUFBQUtLTVZtTXZibjA4Zm9ncE1aSWUzNGtVWDVjeVJmbjg4WFE0MXlDR0lNQjN3RC9nV1hwbDlBQTVvWEh2Zm40TkRSelRLWHQyTGY3WjRyYkJIRjYzUzkrWGJUTjl2Nmo1K25QSjRwMERXNzR2cGJvenpUZXdVUGJCRlg2NWFZWjJXRjVxdzY2WFB6d3pTUlJMdnpRTnR2dGRMYkhYSmpoakF2dW1COFk4WFlJaEYyNGo1bndFVEVVUnRTS2VnRVlTcnR6aUJmbVd1MFh2TUdaMmF4V2pFODJwLzdtbkJPdy9kNlZqSHJJVm1FYzBSODNBQ2dtbDN4NUh4aUJROC9UMGIzSGVGdU1zYk5sMEVqSGpzbjRicEhhRitnTWN2ajJlM2w4ZWtDZkZWdDBVZmt0NGRacmpwWW9CQ0h1cUswVzZIcXh0OXVMNkh2em9zdEVpaHhldnorRkxGd2RhYTVCUFNmbVFpbFVURUhmc1A=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
-    useDelayedLoadingObjectTargets: 0
+    maxSimultaneousImageTargets: 10
+    maxSimultaneousObjectTargets: 10
+    useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
     mirrorVideoBackground: 0
   digitalEyewear:
@@ -45,10 +45,10 @@ MonoBehaviour:
   databaseLoad:
     dataSetsToLoad:
     - VuforiaMars_Images
-    - GearBox
+    - GearBoxImageTargets
     dataSetsToActivate:
-    - GearBox
     - VuforiaMars_Images
+    - GearBoxImageTargets
   videoBackground:
     clippingMode: 0
     numDivisions: 2
